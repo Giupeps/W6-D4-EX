@@ -1,0 +1,22 @@
+@mixin linkStyle() {
+  a {
+    text-decoration: none;
+    color: $color-text;
+    padding: {
+      top: 10vh;
+    }
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+@mixin containerImg() {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  img {
+    margin-top: 5vh;
+  }
+}
